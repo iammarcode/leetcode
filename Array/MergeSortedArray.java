@@ -3,7 +3,7 @@ package Array;
 // https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 public class MergeSortedArray {
     // Solution1 Time O(n) 
-    public void merge1(int[] nums1, int m, int[] nums2, int n) {
+    public void solution(int[] nums1, int m, int[] nums2, int n) {
         int tail1 = m - 1;
         int tail2 = n - 1;
         int current = m + n - 1;
