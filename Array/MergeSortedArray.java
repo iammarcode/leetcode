@@ -2,8 +2,8 @@ package Array;
 
 // https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 class MergeSortedArray {
-    // Solution1 
     // Time O(n)
+    // Space O(1)
     public void solution(int[] nums1, int m, int[] nums2, int n) {
         int tail1 = m - 1;
         int tail2 = n - 1;

@@ -5,7 +5,6 @@ import java.util.List;
 
 // https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
 class RemoveElement {
-    // Solution1 
     // Time O(2n)
     // Space O(2)
     public int solution1(int[] nums, int val) {
@@ -26,7 +25,7 @@ class RemoveElement {
         return result.size();
     }
 
-    // Solution2 - Two pointers
+    // Two pointers
     // Time O(n)
     // Space O(1)
     public int solution2(int[] nums, int val) {
