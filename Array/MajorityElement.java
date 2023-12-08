@@ -3,6 +3,7 @@ package Array;
 import java.util.Arrays;
 import java.util.HashMap;
 
+// https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
 class MajorityElement {
     // HashMap
     public int solution1(int[] nums) {
